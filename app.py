@@ -1,11 +1,3 @@
-import sys
-import os
-
-# Ensure repo root is always on the path — required for Streamlit Cloud
-_root = os.path.abspath(os.path.dirname(__file__))
-if _root not in sys.path:
-    sys.path.insert(0, _root)
-
 import streamlit as st
 
 st.set_page_config(
