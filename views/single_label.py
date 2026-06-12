@@ -4,11 +4,7 @@ Upload one label image, fill in application fields, get AI verification.
 """
 
 import streamlit as st
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
-from utils.analyzer import (
+from analyzer import (
     verify_label,
     get_media_type,
     TTB_FIELD_DESCRIPTIONS,
