@@ -4,7 +4,16 @@ Explains approach, tools, assumptions, and trade-offs.
 """
 
 import streamlit as st
-from utils.analyzer import GOVERNMENT_WARNING_CANONICAL
+import sys
+import os
+
+_here = os.path.dirname(os.path.abspath(__file__))
+_root = os.path.dirname(_here)
+for _p in [_root, _here]:
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
+from analyzer import GOVERNMENT_WARNING_CANONICAL
 
 
 def render():
