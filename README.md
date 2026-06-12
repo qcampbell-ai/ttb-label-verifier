@@ -2,7 +2,7 @@
 
 An AI-powered prototype for automating TTB (Alcohol and Tobacco Tax and Trade Bureau) alcohol label compliance checks. Built for the Department of the Treasury IT Specialist (AI) GS-15 take-home assessment.
 
-**[Live Demo →](YOUR_DEPLOYED_URL_HERE)**
+**[Live Demo →](https://ttb-label-verifier-8xv4hxn7rauizpyv962spx.streamlit.app/)**
 
 ---
 
